@@ -1,0 +1,11 @@
+@namespace("id.kanygin.stats.avro")
+protocol EventSimilarityProtocol {
+
+	record EventSimilarityAvro {
+		long eventA;
+		long eventB;
+		double score;
+		timestamp_ms timestamp;
+	}
+
+}

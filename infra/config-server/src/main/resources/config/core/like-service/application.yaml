@@ -1,0 +1,19 @@
+spring:
+  sql:
+    init:
+      mode: always
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://like-db:5432/ewm-like
+    username: root
+    password: root
+
+logging:
+  level:
+    org:
+      zalando:
+        logbook: TRACE
+
+server:
+  port: 0
